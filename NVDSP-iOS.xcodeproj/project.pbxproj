@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		0010DE2E22E83FEC00FE54A0 /* NVDSP_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE2C22E83FEC00FE54A0 /* NVDSP_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0010DE5122E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3522E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h */; };
+		0010DE5122E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3522E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE5222E83FFD00FE54A0 /* NVBandpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3622E83FFD00FE54A0 /* NVBandpassFilter.m */; };
-		0010DE5322E83FFD00FE54A0 /* NVHighShelvingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3722E83FFD00FE54A0 /* NVHighShelvingFilter.h */; };
+		0010DE5322E83FFD00FE54A0 /* NVHighShelvingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3722E83FFD00FE54A0 /* NVHighShelvingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE5422E83FFD00FE54A0 /* NVNotchFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3822E83FFD00FE54A0 /* NVNotchFilter.m */; };
 		0010DE5522E83FFD00FE54A0 /* NVLowShelvingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3922E83FFD00FE54A0 /* NVLowShelvingFilter.m */; };
 		0010DE5622E83FFD00FE54A0 /* NVHighpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3A22E83FFD00FE54A0 /* NVHighpassFilter.m */; };
-		0010DE5722E83FFD00FE54A0 /* NVAllpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3B22E83FFD00FE54A0 /* NVAllpassFilter.h */; };
+		0010DE5722E83FFD00FE54A0 /* NVAllpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3B22E83FFD00FE54A0 /* NVAllpassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE5822E83FFD00FE54A0 /* NVPeakingEQFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3C22E83FFD00FE54A0 /* NVPeakingEQFilter.m */; };
-		0010DE5922E83FFD00FE54A0 /* NVLowpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3D22E83FFD00FE54A0 /* NVLowpassFilter.h */; };
-		0010DE5A22E83FFD00FE54A0 /* NVBandpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3E22E83FFD00FE54A0 /* NVBandpassFilter.h */; };
+		0010DE5922E83FFD00FE54A0 /* NVLowpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3D22E83FFD00FE54A0 /* NVLowpassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0010DE5A22E83FFD00FE54A0 /* NVBandpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE3E22E83FFD00FE54A0 /* NVBandpassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE5B22E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE3F22E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.m */; };
 		0010DE5C22E83FFD00FE54A0 /* NVHighShelvingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4022E83FFD00FE54A0 /* NVHighShelvingFilter.m */; };
-		0010DE5D22E83FFD00FE54A0 /* NVHighpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4122E83FFD00FE54A0 /* NVHighpassFilter.h */; };
-		0010DE5E22E83FFD00FE54A0 /* NVLowShelvingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4222E83FFD00FE54A0 /* NVLowShelvingFilter.h */; };
-		0010DE5F22E83FFD00FE54A0 /* NVNotchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4322E83FFD00FE54A0 /* NVNotchFilter.h */; };
+		0010DE5D22E83FFD00FE54A0 /* NVHighpassFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4122E83FFD00FE54A0 /* NVHighpassFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0010DE5E22E83FFD00FE54A0 /* NVLowShelvingFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4222E83FFD00FE54A0 /* NVLowShelvingFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0010DE5F22E83FFD00FE54A0 /* NVNotchFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4322E83FFD00FE54A0 /* NVNotchFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE6022E83FFD00FE54A0 /* NVLowpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4422E83FFD00FE54A0 /* NVLowpassFilter.m */; };
-		0010DE6122E83FFD00FE54A0 /* NVPeakingEQFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4522E83FFD00FE54A0 /* NVPeakingEQFilter.h */; };
+		0010DE6122E83FFD00FE54A0 /* NVPeakingEQFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4522E83FFD00FE54A0 /* NVPeakingEQFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE6222E83FFD00FE54A0 /* NVAllpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4622E83FFD00FE54A0 /* NVAllpassFilter.m */; };
 		0010DE6322E83FFD00FE54A0 /* NVClippingDetection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4822E83FFD00FE54A0 /* NVClippingDetection.m */; };
 		0010DE6422E83FFD00FE54A0 /* NVSoundLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4922E83FFD00FE54A0 /* NVSoundLevelMeter.m */; };
-		0010DE6522E83FFD00FE54A0 /* NVClippingDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4A22E83FFD00FE54A0 /* NVClippingDetection.h */; };
-		0010DE6622E83FFD00FE54A0 /* NVSoundLevelMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4B22E83FFD00FE54A0 /* NVSoundLevelMeter.h */; };
+		0010DE6522E83FFD00FE54A0 /* NVClippingDetection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4A22E83FFD00FE54A0 /* NVClippingDetection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0010DE6622E83FFD00FE54A0 /* NVSoundLevelMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4B22E83FFD00FE54A0 /* NVSoundLevelMeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE6822E83FFD00FE54A0 /* NVDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4D22E83FFD00FE54A0 /* NVDSP.mm */; };
 		0010DE6B22E83FFD00FE54A0 /* NVDSP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE5022E83FFD00FE54A0 /* NVDSP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -147,19 +147,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0010DE5922E83FFD00FE54A0 /* NVLowpassFilter.h in Headers */,
-				0010DE6B22E83FFD00FE54A0 /* NVDSP.h in Headers */,
-				0010DE5F22E83FFD00FE54A0 /* NVNotchFilter.h in Headers */,
-				0010DE5122E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h in Headers */,
 				0010DE5722E83FFD00FE54A0 /* NVAllpassFilter.h in Headers */,
-				0010DE2E22E83FEC00FE54A0 /* NVDSP_iOS.h in Headers */,
-				0010DE6522E83FFD00FE54A0 /* NVClippingDetection.h in Headers */,
-				0010DE5D22E83FFD00FE54A0 /* NVHighpassFilter.h in Headers */,
-				0010DE5A22E83FFD00FE54A0 /* NVBandpassFilter.h in Headers */,
+				0010DE5922E83FFD00FE54A0 /* NVLowpassFilter.h in Headers */,
 				0010DE5322E83FFD00FE54A0 /* NVHighShelvingFilter.h in Headers */,
+				0010DE5F22E83FFD00FE54A0 /* NVNotchFilter.h in Headers */,
 				0010DE6122E83FFD00FE54A0 /* NVPeakingEQFilter.h in Headers */,
+				0010DE6522E83FFD00FE54A0 /* NVClippingDetection.h in Headers */,
 				0010DE5E22E83FFD00FE54A0 /* NVLowShelvingFilter.h in Headers */,
+				0010DE5D22E83FFD00FE54A0 /* NVHighpassFilter.h in Headers */,
 				0010DE6622E83FFD00FE54A0 /* NVSoundLevelMeter.h in Headers */,
+				0010DE5A22E83FFD00FE54A0 /* NVBandpassFilter.h in Headers */,
+				0010DE5122E83FFD00FE54A0 /* NVBandpassQPeakGainFilter.h in Headers */,
+				0010DE6B22E83FFD00FE54A0 /* NVDSP.h in Headers */,
+				0010DE2E22E83FEC00FE54A0 /* NVDSP_iOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
