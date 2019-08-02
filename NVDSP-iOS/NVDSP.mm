@@ -29,6 +29,8 @@
 
         zero = 0.0f;
         one = 1.0f;
+        zeroD = 0.0f;
+        oneD = 1.0f;
     }
     return self;
 }
@@ -92,10 +94,10 @@
             float left[numFrames + 2];
             float right[numFrames + 2];
 
-            [self deinterleave:data left:left right:right length:numFrames];
+            [self deinterleave_float:data left:left right:right length:numFrames];
             [self filterContiguousData:left numFrames:numFrames channel:0];
             [self filterContiguousData:right numFrames:numFrames channel:1];
-            [self interleave:data left:left right:right length:numFrames];
+            [self interleave_float:data left:left right:right length:numFrames];
 
             break;
         }
@@ -107,14 +109,24 @@
 
 #pragma mark - Etc
 
-- (void) deinterleave: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length {
+- (void) deinterleave_float: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length {
     vDSP_vsadd(data, 2, &zero, left, 1, length);   
     vDSP_vsadd(data+1, 2, &zero, right, 1, length); 
 }
 
-- (void) interleave: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length {
+- (void) interleave_float: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length {
     vDSP_vsadd(left, 1, &zero, data, 2, length);   
     vDSP_vsadd(right, 1, &zero, data+1, 2, length); 
+}
+
+- (void) deinterleave_double: (double *)data left: (double*) left right: (double*) right length: (vDSP_Length)length {
+    vDSP_vsaddD(data, 2, &zeroD, left, 1, length);
+    vDSP_vsaddD(data+1, 2, &zeroD, right, 1, length);
+}
+
+- (void) interleave_double: (double *)data left: (double*) left right: (double*) right length: (vDSP_Length)length {
+    vDSP_vsaddD(left, 1, &zeroD, data, 2, length);
+    vDSP_vsaddD(right, 1, &zeroD, data+1, 2, length);
 }
 
 - (void) mono: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length {
@@ -123,7 +135,7 @@
 
     vDSP_vadd(left, 1, right, 1, left, 1, length);
 
-    [self interleave:data left:left right:left length:length];
+    [self interleave_float:data left:left right:left length:length];
 }
 
 - (void) intermediateVariables: (float)Fc Q: (float)Q {
