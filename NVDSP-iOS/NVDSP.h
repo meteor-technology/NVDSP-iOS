@@ -12,7 +12,6 @@
 
 @interface NVDSP : NSObject {
     float zero, one;
-    double zeroD, oneD;
 
     float samplingRate;
 
@@ -41,10 +40,8 @@
 
 #pragma mark - Etc
 - (void) intermediateVariables: (float)Fc Q: (float)Q;
-- (void) deinterleave_float: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length;
-- (void) interleave_float: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length;
-- (void) deinterleave_double: (double *)data left: (double*) left right: (double*) right length: (vDSP_Length)length;
-- (void) interleave_double: (double *)data left: (double*) left right: (double*) right length: (vDSP_Length)length;
+- (void) deinterleave: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length;
+- (void) interleave: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length;
 - (void) mono: (float *)data left: (float*) left right: (float*) right length: (vDSP_Length)length;
 
 #pragma mark - Debug
