@@ -32,7 +32,6 @@
 		0010DE6622E83FFD00FE54A0 /* NVSoundLevelMeter.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE4B22E83FFD00FE54A0 /* NVSoundLevelMeter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0010DE6822E83FFD00FE54A0 /* NVDSP.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0010DE4D22E83FFD00FE54A0 /* NVDSP.mm */; };
 		0010DE6B22E83FFD00FE54A0 /* NVDSP.h in Headers */ = {isa = PBXBuildFile; fileRef = 0010DE5022E83FFD00FE54A0 /* NVDSP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		004B18AA22F42A98001C0A91 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004B18A922F42A98001C0A91 /* Accelerate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,7 +62,6 @@
 		0010DE4B22E83FFD00FE54A0 /* NVSoundLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVSoundLevelMeter.h; sourceTree = "<group>"; };
 		0010DE4D22E83FFD00FE54A0 /* NVDSP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NVDSP.mm; sourceTree = "<group>"; };
 		0010DE5022E83FFD00FE54A0 /* NVDSP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVDSP.h; sourceTree = "<group>"; };
-		004B18A922F42A98001C0A91 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +69,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004B18AA22F42A98001C0A91 /* Accelerate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +80,6 @@
 			children = (
 				0010DE2B22E83FEB00FE54A0 /* NVDSP-iOS */,
 				0010DE2A22E83FEB00FE54A0 /* Products */,
-				004B18A822F42A98001C0A91 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,14 +138,6 @@
 				0010DE4B22E83FFD00FE54A0 /* NVSoundLevelMeter.h */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		004B18A822F42A98001C0A91 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				004B18A922F42A98001C0A91 /* Accelerate.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
